@@ -1,18 +1,28 @@
 {
   "name": "gt",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Generate template for my helloworlds",
+  "main": "src/index.js",
   "scripts": {
     "start": "node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igolskyi/gt.git"
   },
   "keywords": [],
   "author": "Iurii Golskyi <igolskyi@gmail.com>",
   "license": "ISC",
-  "devDependencies": {
-    "eslint": "^7.28.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-import": "^2.23.4"
+  "bugs": {
+    "url": "https://github.com/igolskyi/gt/issues"
   },
-  "dependencies": {}
+  "homepage": "https://github.com/igolskyi/gt#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
 }
