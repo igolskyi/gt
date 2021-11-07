@@ -14,22 +14,22 @@ module.exports = {
     },
     rules: {
         'prettier/prettier': 'error',
-        semi: ['error', 'always'],
+        // semi: ['error', 'always'],
         'consistent-return': 'off',
-        'arrow-parens': ['error', 'as-needed'],
+        // 'arrow-parens': ['error', 'as-needed'],
         'no-console': ['error', { allow: ['warn', 'error', 'info'] }],
         'no-debugger': 'error',
-        'max-len': [
-            'error',
-            {
-                code: 80,
-                ignoreComments: true,
-                ignoreRegExpLiterals: true,
-                ignoreTrailingComments: true,
-                ignoreTemplateLiterals: true,
-                ignoreStrings: true,
-                ignoreUrls: true,
-            },
-        ],
+        // 'max-len': [
+        //     'error',
+        //     {
+        //         code: 80,
+        //         ignoreComments: true,
+        //         ignoreRegExpLiterals: true,
+        //         ignoreTrailingComments: true,
+        //         ignoreTemplateLiterals: true,
+        //         ignoreStrings: true,
+        //         ignoreUrls: true,
+        //     },
+        // ],
     },
 };
